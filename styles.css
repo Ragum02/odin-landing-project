@@ -12,8 +12,10 @@
 /******************************************************/
 
 body{
+    height: 100%;
+    width: 100%;
+    background-position: center;
     background-image: url("ressources/background.png");
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -57,16 +59,16 @@ h2{
 /*******************************/
 /********************* Middle with Informations and card******************** */
 #informations p {
-    color: #aeb9f7;
+    color: #001058;
+    font-weight: 700;
     border-radius: 15px;
     align-items: center;
     display:flex;
     padding:30px;
-    height: 250px;
+    height: 200px;
     overflow: scroll;
-    background-color: #1b1a557e;
-    box-shadow: inset black 1px 1px 50px 10px;
-    font-size: 13px;
+text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.658);
+    font-size: 17px;
 }
 .middle{
     display: flex;
