@@ -1,3 +1,5 @@
+/*************************Reset everything*****************/
+
 *{
     list-style-type: none;
     text-decoration: none;
@@ -5,18 +7,19 @@
     margin:0;
     padding:0;
 }
+/******************************************************/
+
 body{
     background-image: url("ressources/background.png");
     background-size: cover;
 }
+
+/* Header */
 header{
 display:flex;
 flex-direction: column;
 background-color: #070f2bb4;
 box-shadow: inset black 5px 5px 100px 50px;
-}
-.header.buttons li:hover{
-    transform: scale(110%);
 }
 .header.top,
 .header.bottom,
@@ -48,7 +51,9 @@ h2{
     border-radius: 5px;
     background-color: rgba(1, 0, 46, 0.8);
 }
-#informations{
+/*******************************/
+/********************* Middle with Informations and card******************** */
+.middle{
     display: flex;
     align-items: center;
 }
@@ -69,6 +74,92 @@ margin:100px 0;
     border-radius: 15px;
     border:solid 1px black; 
     background-color: white;
+}
+
+/**************************************/
+
+/*********** Quotes***************/
+
+#quote {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 0;
+    height: 250px;
+    background-color: #1B1A55b4;
+    box-shadow: inset black 5px 5px 100px 50px;
+}
+.quoteone{
+    margin-right:500px;
+}
+.quotetwo{
+    margin-right:300px;
+}
+.quotethree{
+    margin-left: 250px;
+}
+h4{
+    margin-top: 20px;
+    margin-left:800px;
+}
+
+/************** Recruitment div ******************/
+#recruitment{
+    margin: 100px auto;
+}
+.recruitement-card{
+    width:40%;
+    background-color: #535C91b4;
+    margin:auto;
+    padding:50px;
+    box-shadow: inset black 5px 5px 100px 50px;
+    border-radius: 10px;
+    border: solid 1px #9290C3b4;
+    display:flex;
+    justify-content: space-between;
+}
+.recruitement-card button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: #535C91b4;
+    box-shadow: black 1px 1px 25px 10px;
+    color:rgba(255, 0, 0, 0.548);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/**************************************************/
+
+/********  Footer *****************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Hover etc...*/
+
+.header.buttons li:hover{
+    transform: scale(110%);
 }
 .card img:hover{
     cursor: pointer;
