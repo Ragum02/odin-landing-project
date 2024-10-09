@@ -1,16 +1,19 @@
 /*************************Reset everything*****************/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Gujarati:wght@100..800&display=swap');
 
 *{
     list-style-type: none;
     text-decoration: none;
-    color:rgb(160, 160, 160);
+    color: #aeb9f7;
     margin:0;
     padding:0;
+    font-family: "Anek Gujarati", sans-serif;
 }
 /******************************************************/
 
 body{
     background-image: url("ressources/background.png");
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -18,8 +21,8 @@ body{
 header{
 display:flex;
 flex-direction: column;
-background-color: #070f2bb4;
-box-shadow: inset black 5px 5px 100px 50px;
+background-color: #070f2b8e;
+box-shadow: inset black 1px 1px 100px 10px;
 }
 .header.top,
 .header.bottom,
@@ -49,10 +52,20 @@ h2{
     font-size: 16px;
     padding:5px;
     border-radius: 5px;
-    background-color: rgba(1, 0, 46, 0.8);
+    background-color: rgba(1, 0, 46, 0.5);
 }
 /*******************************/
 /********************* Middle with Informations and card******************** */
+#informations p {
+    color: #aeb9f7;
+    border-radius: 15px;
+    align-items: center;
+    display:flex;
+    padding:15px;
+    height:150px;
+    background-color: #1b1a557e;
+    box-shadow: inset black 1px 1px 50px 10px;
+}
 .middle{
     display: flex;
     align-items: center;
@@ -61,8 +74,10 @@ h2{
 text-shadow: rgb(0, 0, 0) 2px 2px 0px;
 text-align: center;
 margin:100px 0;
+text-decoration: underline;
 }
 .card {
+
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -70,10 +85,12 @@ margin:100px 0;
     margin: 0 60px;
 }
 .card > img{
+    
     margin-bottom: 25px;
     border-radius: 15px;
     border:solid 1px black; 
-    background-color: white;
+    background-color: #1b1a557e;
+    box-shadow: inset black 1px 1px 20px 5px;
 }
 
 /**************************************/
@@ -87,8 +104,8 @@ margin:100px 0;
     justify-content: center;
     margin: 50px 0;
     height: 250px;
-    background-color: #1B1A55b4;
-    box-shadow: inset black 5px 5px 100px 50px;
+    background-color: #1b1a557e;
+    box-shadow: inset black 1px 1px 100px 10px;
 }
 .quoteone{
     margin-right:500px;
@@ -110,10 +127,10 @@ h4{
 }
 .recruitement-card{
     width:40%;
-    background-color: #535C91b4;
+    background-color: #535c9196;
     margin:auto;
     padding:50px;
-    box-shadow: inset black 5px 5px 100px 50px;
+    box-shadow: inset black 0px 0px 100px 10px;
     border-radius: 10px;
     border: solid 1px #9290C3b4;
     display:flex;
@@ -122,8 +139,8 @@ h4{
 .recruitement-card button{
     width: 150px;
     border-radius: 10px;
-    background-color: #535C91b4;
-    box-shadow: black 1px 1px 25px 10px;
+    background-color: #535c9138;
+    box-shadow: rgba(0, 0, 0, 0.795) 1px 1px 25px 10px;
     color:rgba(255, 0, 0, 0.548);
     font-weight: bold;
     font-size: 20px;
@@ -133,28 +150,14 @@ h4{
 
 /********  Footer *****************************/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    height: 50px;
+    background-color: #9290c33f;
+    box-shadow: inset rgba(0, 0, 0, 0.774) 1px 1px 30px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /*Hover etc...*/
 
