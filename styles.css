@@ -1,0 +1,13 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+}
+body{
+    background-image: url("ressources/background.png");
+    background-size: cover;
+}
+img{
+    border:solid 1px white; 
+    background-color: white;
+}
