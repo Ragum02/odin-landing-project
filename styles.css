@@ -1,13 +1,80 @@
 *{
     list-style-type: none;
     text-decoration: none;
-    color:white;
+    color:rgb(160, 160, 160);
+    margin:0;
+    padding:0;
 }
 body{
     background-image: url("ressources/background.png");
     background-size: cover;
 }
-img{
-    border:solid 1px white; 
+header{
+display:flex;
+flex-direction: column;
+background-color: #070f2bb4;
+box-shadow: inset black 5px 5px 100px 50px;
+}
+.header.buttons li:hover{
+    transform: scale(110%);
+}
+.header.top,
+.header.bottom,
+.header.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:25px;
+    gap:15px;
+}
+.header.bottom{
+    justify-content: space-evenly;
+}
+.header.bottom h1,
+h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+.header.bottom h1,
+.header.bottom p{
+    margin-bottom: 10px;
+}
+.header.bottom button{
+    font-weight: 800;
+    color:rgba(255, 0, 0, 0.548);
+    font-size: 16px;
+    padding:5px;
+    border-radius: 5px;
+    background-color: rgba(1, 0, 46, 0.8);
+}
+#informations{
+    display: flex;
+    align-items: center;
+}
+ h2{
+text-shadow: rgb(0, 0, 0) 2px 2px 0px;
+text-align: center;
+margin:100px 0;
+}
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    margin: 0 60px;
+}
+.card > img{
+    margin-bottom: 25px;
+    border-radius: 15px;
+    border:solid 1px black; 
     background-color: white;
+}
+.card img:hover{
+    cursor: pointer;
+transform: scale(110%);
+}
+button:hover{
+transform: scale(120%);
+cursor:pointer;
 }
