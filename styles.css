@@ -62,9 +62,11 @@ h2{
     align-items: center;
     display:flex;
     padding:30px;
-    height:250px;
+    height: 250px;
+    overflow: scroll;
     background-color: #1b1a557e;
     box-shadow: inset black 1px 1px 50px 10px;
+    font-size: 13px;
 }
 .middle{
     display: flex;
